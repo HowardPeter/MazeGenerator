@@ -174,7 +174,7 @@ public class MazeGenerator : MonoBehaviour
         else if (newCell.gridPos.y == mazeRows) RemoveWall(newCell.cScript, 3);
         else RemoveWall(newCell.cScript, 4);
 
-        Debug.Log("Maze generation finished.");
+        //Debug.Log("Maze generation finished.");
     }
 
     public List<Cell> GetUnvisitedNeighbours(Cell curCell)
