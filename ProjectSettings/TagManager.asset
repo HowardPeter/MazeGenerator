@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Wall
   - Goal
+  - Cell
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Cell
   - Water
   - UI
   - 
