@@ -466,8 +466,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mazeRows: 10
   mazeColumns: 16
-  cellPrefab: {fileID: 7019675509328316695, guid: 1e2f4d3c869830540aaf623d1f9b8e88, type: 3}
+  cellPrefab: {fileID: 7955591917620436000, guid: 1a30f83d8436ee34a94241937c0d5fd9, type: 3}
   disableCellSprite: 0
+  pos: 0
+  getKeyPos: {x: 0, y: 0}
 --- !u!4 &1908032276
 Transform:
   m_ObjectHideFlags: 0
