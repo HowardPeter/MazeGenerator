@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5982417393933150629}
   - component: {fileID: 6930993080898537994}
   - component: {fileID: 1552249643314130076}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall-R
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 936047506011600653}
   - component: {fileID: 3028688832056987710}
   - component: {fileID: 4374593905281601947}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall-U
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 345557888780045417}
   - component: {fileID: 6571263262303999981}
   - component: {fileID: 2447332896908395634}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall-L
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -426,7 +426,7 @@ Transform:
   - {fileID: 936047506011600653}
   - {fileID: 7318076040133202928}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1833508877136446107
 SpriteRenderer:
@@ -541,7 +541,6 @@ MonoBehaviour:
   wallR: {fileID: 4857544008606806900}
   wallU: {fileID: 5065499133232029451}
   wallD: {fileID: 8576275912005343577}
-  mGen: {fileID: 0}
 --- !u!1 &8576275912005343577
 GameObject:
   m_ObjectHideFlags: 0
@@ -553,7 +552,7 @@ GameObject:
   - component: {fileID: 7318076040133202928}
   - component: {fileID: 4449610516204277029}
   - component: {fileID: 4931207797073394621}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall-D
   m_TagString: Wall
   m_Icon: {fileID: 0}
