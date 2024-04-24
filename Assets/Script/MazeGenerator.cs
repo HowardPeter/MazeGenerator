@@ -77,7 +77,6 @@ public class MazeGenerator : MonoBehaviour
      * pass a rows value and columns value as parameters and the generator will
      * do the rest for you. Enjoy!
      */
-    public int pos;
     private void Start()
     {
         GenerateMaze(mazeRows, mazeColumns);
