@@ -10,21 +10,4 @@ public class CellScript : MonoBehaviour
     public GameObject wallR;
     public GameObject wallU;
     public GameObject wallD;
-
-    private MazeGenerator mGen;
-
-    private void Start()
-    {
-        GameObject mazeGeneratorGameObject = GameObject.Find("MazeGenerator");
-
-        if (mazeGeneratorGameObject != null)
-        {
-            mGen = mazeGeneratorGameObject.GetComponent<MazeGenerator>();
-        }
-    }
-
-    private void OnMouseDown()
-    {
-        Debug.Log(gameObject.name);
-    }
 }

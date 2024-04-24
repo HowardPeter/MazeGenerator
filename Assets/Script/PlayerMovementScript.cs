@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovementScript : MonoBehaviour
 {
-    private Rigidbody2D rb;
+    private Rigidbody rb;
 
     [SerializeField] private float speed;
     float horizontal, vertical;
@@ -14,7 +14,7 @@ public class PlayerMovementScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody>();
         transform.position = new Vector3(sposX, sposY, 0);
     }
 
