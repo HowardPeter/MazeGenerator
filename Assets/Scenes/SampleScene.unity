@@ -469,7 +469,6 @@ MonoBehaviour:
   cellPrefab: {fileID: 7955591917620436000, guid: 1a30f83d8436ee34a94241937c0d5fd9, type: 3}
   disableCellSprite: 0
   pos: 0
-  getKeyPos: {x: 0, y: 0}
 --- !u!4 &1908032276
 Transform:
   m_ObjectHideFlags: 0
