@@ -92,7 +92,7 @@ public class GridScript : MonoBehaviour
                 }
                 if (Mathf.Approximately(targetNode.worldPosition.x, n.worldPosition.x) && Mathf.Approximately(targetNode.worldPosition.y, n.worldPosition.y))
                 {
-                    Gizmos.color = Color.green;
+                    Gizmos.color = Color.blue;
                 }
                 if (path != null && path.Contains(n))
                 {
